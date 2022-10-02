@@ -1,0 +1,35 @@
+[
+    {
+        "model": "chocolateList.itemchocolatelist",
+        "pk": 1,
+        "fields": {
+            "item_name": "Choconutty",
+            "item_price":"3",
+            "item_articleNumber":"00342", 
+            "item_flavour":"Hazelnut",
+            "item_tan":"Milk" 
+        }
+     },
+     {
+        "model": "chocolateList.itemchocolatelist",
+        "pk": 2,
+        "fields": {
+            "item_name": "VeryBerry",
+            "item_price":"4",
+            "item_articleNumber":"00567", 
+            "item_flavour":"Strawberry & Rasberry",
+            "item_tan":"Dark" 
+        }
+    },
+    {
+        "model": "chocolateList.itemchocolatelist",
+        "pk": 3,
+        "fields": {
+            "item_name": "Max",
+            "item_price":"2",
+            "item_articleNumber":"00985", 
+            "item_flavour":"Salty",
+            "item_tan":"White" 
+        }
+    }
+]
