@@ -2,7 +2,7 @@
 
 {% block content %}
 <h5>Name: </h5>
-<p>Fill me!</p>
+<b>{{ name }}</b>
 
 <table>
     <tr>
@@ -13,7 +13,16 @@
         <th>Tan</th>
  
     </tr>
-    {% comment %} Add the data below this line {% endcomment %}
+        
+    {% for item in list_item %}
+        <tr>
+            <th>{{ item.item_name }}</th>
+            <th>{{ item.item_price }}</th>
+            <th>{{ item.item_articleNumber }}</th>
+            <th>{{ item.item_flavour }}</th>
+            <th>{{ item.item_tan }}</th>
+        </tr>
+    {% endfor %}
 </table>
 
 {% endblock content %}
